@@ -44,13 +44,13 @@ table {
  * TEST RESULT COLORS
  ******************************/
 span.passed, .passed .col-result {
-	color: green;
+	color: #97cc64;
 }
 span.skipped, span.xfailed, span.rerun, .skipped .col-result, .xfailed .col-result, .rerun .col-result {
-	color: orange;
+	color: #ffd050;
 }
 span.error, span.failed, span.xpassed, .error .col-result, .failed .col-result, .xpassed .col-result  {
-	color: red;
+	color: #fd5a3e;
 }
 
 
@@ -160,4 +160,12 @@ div.image img {
 .desc.active .sort-icon {
 	/*finish triangle*/
 	border-top: 8px solid #999;
+}
+
+.url {
+	color: #d00;
+	font-weight: bold;
+}
+.url_p {
+	font-weight: bold;
 }
