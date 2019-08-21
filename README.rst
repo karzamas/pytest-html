@@ -187,6 +187,7 @@ conftest.py file:
 
 
 If you want to add screenshot try this:
+
 .. code-block:: python
 
    from py.xml import html
